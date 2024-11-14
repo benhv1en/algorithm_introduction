@@ -14,7 +14,7 @@ void moveToFront(vector<int> &a, const int &K)
 }
 int main(int argc, char *argv[])
 {
-    vector<int> a = {4, 1, 2, 5, 7, 8, 0, 6};
+    vector<int> a = {4, 1, 5, 2, 7, 8, 0, 6};
     moveToFront(a, 6);
     for (int i = 0; i < a.size(); ++i)
         cout << a[i] << "\t";
