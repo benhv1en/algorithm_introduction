@@ -27,4 +27,5 @@ int main(int argc, char *argv[])
     for (int i = 0; i < a.size(); ++i)
         cout << a[i] << "\t";
     cout << endl;
+    return 0;
 }
