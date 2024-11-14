@@ -15,7 +15,7 @@ vector<int> linearSearch(vector<int> a, const int &K)
 }
 int main(int argc, char *argv[])
 {
-    vector<int> a = {1, 2, 3, 2, 4, 2, 6, 5, 4, 8, 6, 9};
+    vector<int> a = {4, 1, 5, 2, 7, 8, 0, 6};
     vector<int> indices = linearSearch(a, 6);
     for (int i = 0; i < indices.size(); ++i)
         cout << indices[i] << "\t";
