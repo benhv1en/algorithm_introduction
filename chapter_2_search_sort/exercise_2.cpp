@@ -15,7 +15,7 @@ bool isIncreasing(vector<int> a)
 }
 int main(int argc, char *argv[])
 {
-    vector<int> a = {1, 2, 2, 3, 4, 5, 6, 6, 6, 7, 8, 9};
+    vector<int> a = {4, 1, 5, 2, 7, 8, 0, 6};
     cout << isIncreasing(a) << endl;
     return 0;
 }
