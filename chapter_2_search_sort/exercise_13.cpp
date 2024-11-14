@@ -26,4 +26,5 @@ int main(int argc, char *argv[])
     for (int i = 0; i < indices.size(); ++i)
         cout << indices[i] << "\t";
     cout << endl;
+    return 0;
 }
