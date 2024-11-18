@@ -4,7 +4,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-vector<int> linearSearch(vector<int> a, const int &K)
+vector<int> linearSearch(const vector<int> &a, const int &K)
 {
     vector<int> indices;
     int n = a.size();
