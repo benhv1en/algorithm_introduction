@@ -6,7 +6,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-bool isIncreasing(vector<int> a)
+bool isIncreasing(const vector<int> &a)
 {
     for (int i = 1; i < a.size(); ++i)
         if (a[i - 1] > a[i])
