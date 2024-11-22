@@ -5,7 +5,7 @@
 #include <cstring>
 #include <vector>
 using namespace std;
-vector<int> stringMatch(string T, string P)
+vector<int> stringMatch(const string &T, const string &P)
 {
     vector<int> indices;
     int n = T.size(), m = P.size();
